@@ -1,0 +1,89 @@
+.nav {
+  height: 100%;
+  width: 160px; 
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background-color: #F44336; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.nav a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+  color: #f1f1f1;
+  background-color: #5CAB7D;
+}
+.content {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+#HTML {
+  background-color: #009688;
+  box-shadow: 5px 5px 3px 10px #00BFA5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#CSS {
+  background-color: #4CAF50;
+  box-shadow: 5px 5px 3px 10px #00C853;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#JS {
+  background-color: #FFC107;
+  box-shadow: 5px 5px 3px 10px #FFC400;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+#REVIEW {
+  background-color: #9B8281;
+  box-shadow: 5px 5px 3px 10px #DD2C00;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+li {
+  font-family: 'Shadows Into Light', cursive;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  font-weight: 10;
+  background-color: #6AAFE6;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+}
+h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+  background-color: #cff0da;
+}
+
+@media (max-width:925px) {
+  body{
+    font-size: 20px;
+  }
+  .content{
+    font-size: 22px;
+  }
+  h1 { 
+    font-size: 22px; 
+  }
+
+}

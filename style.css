@@ -29,30 +29,30 @@
   padding: 0px 10px;
 }
 #HTML {
-  background-color: #009688;
-  box-shadow: 5px 5px 3px 10px #00BFA5;
+  background-color: white;
+  box-shadow: 5px 5px 3px 10px #BDBDBD;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 #CSS {
-  background-color: #4CAF50;
-  box-shadow: 5px 5px 3px 10px #00C853;
+  background-color: white;
+  box-shadow: 5px 5px 3px 10px #BDBDBD;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 #JS {
-  background-color: #FFC107;
-  box-shadow: 5px 5px 3px 10px #FFC400;
+  background-color: white;
+  box-shadow: 5px 5px 3px 10px #BDBDBD;
   margin: 0;
   padding: 0;
   width: 100%;
 
 }
 #REVIEW {
-  background-color: #9B8281;
-  box-shadow: 5px 5px 3px 10px #DD2C00;
+  background-color: white;
+  box-shadow: 5px 5px 3px 10px #BDBDBD;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -72,7 +72,7 @@ h2 {
 }
 
 body {
-  background-color: #cff0da;
+  background-image: url('1.png');
 }
 
 @media (max-width:925px) {
